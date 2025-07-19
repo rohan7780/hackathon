@@ -1,0 +1,252 @@
+body{
+    color: white;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5rem;
+    color: rgb(0, 0, 0); 
+
+}
+.texts{
+    margin-top: 70px;
+  
+    display: flex;
+    justify-content: space-between;
+}
+.p-normal{
+    font-size: 2rem;
+    font-weight: 1px;
+    font-size: 25px;
+    width: 40%;
+    margin-left: 20px;
+}
+button{
+    color: white;
+    background-color: black;
+    margin-top: 60px;
+    height: 60px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+}
+.footer {
+  background-color: #0f0f10;
+  color: #ffffff;
+  width: 85%;
+  margin-left: 110px;
+  padding: 40px 60px 20px;
+  margin-top: 60px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    gap: 25px;
+}
+ol{
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+}
+ul li {
+    list-style-type: none;
+    
+}
+ul li a{
+    color: white;
+    font-size: 15px;
+}
+ol li a {
+    color: white;
+}
+ol li{
+    list-style-type: none;
+}
+
+
+
+.footer-bottom {
+  border-top: 1px solid #333333;
+  margin-top: 30px;
+  padding-top: 20px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  color: #aaa;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.footer-bottom p{
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer-bottom a {
+  color: #ccc;
+  text-decoration: underline;
+  font-size: 20px;
+  margin-top: 7px;
+  margin-right: auto;
+}
+@media screen and (max-width: 768px){
+
+body{
+    color: rgb(24, 24, 24);
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0
+}
+.pics{
+    height: 300px;
+   margin-left: auto;
+    margin-top: 85px;
+    margin-right: auto;
+}
+.texts{
+    margin-top: 60px;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.p-normal{
+ font-size: 8rem;
+    font-size: 20px;
+   margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.boti{
+     color: white;
+    background-color: black;
+    margin-top: 70px;
+     width: 30%; 
+     margin-left: 260px;
+    height: 60px;
+    border-radius: 20px;
+}
+.logos{
+   display: flex;
+   flex-direction: column;
+}
+.footer {
+  background-color: #0f0f10;
+  color: #ffffff;
+  width: 100%;
+  margin-left: 0px;
+  padding: 40px 60px 20px;
+  margin-top: 60px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.btt {
+    display: none;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.pic{
+    height: 30%;
+}
+.head{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    gap: 25px;
+}
+ol{
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+}
+ul li {
+    list-style-type: none;
+    
+}
+ul li a{
+    color: white;
+    font-size: 15px;
+}
+ol li a {
+    color: white;
+}
+ol li{
+    list-style-type: none;
+}
+.footer-bottom {
+  border-top: 1px solid #333333;
+  margin-top: 30px;
+  padding-top: 20px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  color: #aaa;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.footer-bottom p{
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer-bottom a {
+  color: #ccc;
+  text-decoration: underline;
+  font-size: 20px;
+  margin-top: 7px;
+  margin-right: auto;
+}
+
+
+}
